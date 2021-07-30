@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900,700,400italic" rel="stylesheet">
@@ -31,11 +30,10 @@
         .navbarul {
             padding-top: 14px !important;
         }
-        .hovershow{
+
+        .hovershow {
             display: none;
         }
-      
-      
     </style>
 </head>
 
@@ -103,68 +101,68 @@
                                     <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Four</a></li>
                                     <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Five</a></li>
                                 </ul>
-                                
+
                             </nav>
                         </div>
 
 
-                </div>
+                    </div>
 
 
-               <div id="hovershow" class="hovershow" style="background-color:white;width:100%; height:300px;margin-top:10px;position:absolute;
+                    <div id="hovershow" class="hovershow" style="background-color:white;width:100%; height:300px;margin-top:10px;position:absolute;
                top:150px;z-index:100; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center; ">
-               <h1>This is heading one</h1>
+                        <h1>This is heading one</h1>
 
-               </div>
+                    </div>
 
-<script>
-    function fun(){
-        document.getElementById('hovershow').style.display = 'block';
-    }
-    function remove(){
-        document.getElementById('hovershow').style.display = 'none';
-    }
-   
-</script>
+                    <script>
+                        function fun() {
+                            document.getElementById('hovershow').style.display = 'block';
+                        }
 
-                <style>
-                    .navbar ul {
-                        list-style: none;
-                        padding: 0;
-                        margin: 0;
-                        background-color: white;
-                        color: black;
-                        text-align: center;
-                        width: 100%;
-                    }
+                        function remove() {
+                            document.getElementById('hovershow').style.display = 'none';
+                        }
+                    </script>
 
-                    .navbar li {
-                        display: inline-block;
-                    }
+                    <style>
+                        .navbar ul {
+                            list-style: none;
+                            padding: 0;
+                            margin: 0;
+                            background-color: white;
+                            color: black;
+                            text-align: center;
+                            width: 100%;
+                        }
 
-                    .navbar a {
-                        text-decoration: none;
-                        color: black;
-                        width: 70px;
-                        display: block;
-                        padding-bottom: 15px;
-                        font-size: 15px;
+                        .navbar li {
+                            display: inline-block;
+                        }
 
-                    }
-                </style>
+                        .navbar a {
+                            text-decoration: none;
+                            color: black;
+                            width: 70px;
+                            display: block;
+                            padding-bottom: 15px;
+                            font-size: 15px;
 
-                <div>
+                        }
+                    </style>
+
+                    <div>
+
+                    </div>
+
 
                 </div>
 
 
+
             </div>
-
-
-
-        </div>
 
         </div>
 
