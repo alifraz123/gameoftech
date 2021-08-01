@@ -68,15 +68,17 @@
                                 <div class="col-lg-4 col-12 col-md-12 ">
                                 </div>
                                 <div class="col-lg-4 col-12 col-md-12">
-                                    <div style="color: gray;font-size: 33px;text-align: center; margin-top:-15px;  font-family: serif;">GameOfTech</div>
+                                    <div style="color: gray;font-size: 33px;text-align: center; margin-top:-15px;  font-family: serif;">
+                                <img src="public/clientassets/images/GameOfTech.png" style="width: 50%" alt="">
+                                </div>
                                 </div>
                                 <div style="text-align: right;" class="col-lg-4 col-12 col-md-12">
 
-                                    <i class="fa fa-paperclip" style="font-size:24px;margin-left: 15px;margin-right:15px;"></i>
-                                    <i class="fa fa-indent" style="font-size:24px;margin-left: 15px;margin-right:15px;"></i>
-                                    <i class="fa fa-cut" style="font-size:24px;margin-left: 15px;margin-right:15px;"></i>
-                                    <i class="fa fa-unlink" style="font-size:24px;margin-left: 15px;margin-right:15px;"></i>
-                                    <i class="fa fa-table" style="font-size:24px;margin-left: 15px;margin-right:15px;"></i>
+                                    <i onclick="show_sidebar()" class="fa fa-search" style="font-size:24px;margin-left: 15px;margin-right:15px;cursor:pointer"></i>
+                                    <i onclick="show_sidebar()" class="fa fa-sign-in" style="font-size:24px;margin-left: 15px;margin-right:15px;cursor:pointer"></i>
+                                    <i onclick="show_sidebar()" class="fa fa-heart-o" style="font-size:24px;margin-left: 15px;margin-right:15px;cursor:pointer"></i>
+                                    <i onclick="show_sidebar()" class="fa fa-cart-plus" style="font-size:24px;margin-left: 15px;margin-right:15px;cursor:pointer"></i>
+                                    <i onclick="show_sidebar()" class="fa fa-truck" style="font-size:24px;margin-left: 15px;margin-right:15px;cursor:pointer"></i>
 
                                 </div>
 
@@ -84,22 +86,17 @@
 
                             <hr>
                             <nav style="z-index: 1;padding:0;" class="navbar sticky-top">
-                                <ul id="navbarul" class="abc">
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">First</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Second</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Third</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Four</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Five</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">First</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Second</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Third</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Four</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Five</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">First</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Second</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Third</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Four</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Five</a></li>
+                                <ul id="navbarul">
+                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">New In</a></li>
+                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Women</a></li>
+                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Man</a></li>
+                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Kids</a></li>
+                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Beauty</a></li>
+                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Accessories</a></li>
+                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Home</a></li>
+                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Style Guide</a></li>
+                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Store Locator</a></li>
+
                                 </ul>
 
                             </nav>
@@ -109,11 +106,60 @@
                     </div>
 
 
-                    <div id="hovershow" class="hovershow" style="background-color:white;width:100%; height:300px;margin-top:10px;position:absolute;
+                    <div onmouseenter="fun()" onmouseleave="remove()" id="hovershow" class="hovershow" style="background-color:white;width:100%; height:300px;margin-top:10px;position:absolute;
                top:150px;z-index:100; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center; ">
-                        <h1>This is heading one</h1>
+                        <div class="container">
+                            <div style="margin-top: 40px;" class="row">
+                                <div class="col-md-3">
+                                    <div style="border-bottom: 1px solid gray;text-align:left">
+                                        <h6>Ready To Wear</h6>
+                                    </div>
+                                    <ul style="text-align: left; list-style-type:none;padding:0">
+                                        <li>Printed</li>
+                                        <li>Solid Colored</li>
+                                        <li>Luxury Pret</li>
+                                        <li>Embroided</li>
+                                        <li>Silk</li>
+                                        <li>Ready To Wear Outfits</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <div style="border-bottom: 1px solid gray;text-align:left">
+                                        <h6>Ready To Wear</h6>
+                                    </div>
+                                    <ul style="text-align: left; list-style-type:none;padding:0">
+                                        <li>Printed</li>
+                                        <li>Solid Colored</li>
+                                        <li>Luxury Pret</li>
+                                        <li>Embroided</li>
+                                        <li>Silk</li>
+                                        <li>Ready To Wear Outfits</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <div style="border-bottom: 1px solid gray;text-align:left">
+                                        <h6>Ready To Wear</h6>
+                                    </div>
+                                    <ul style="text-align: left; list-style-type:none;padding:0">
+                                        <li>Printed</li>
+                                        <li>Solid Colored</li>
+                                        <li>Luxury Pret</li>
+                                        <li>Embroided</li>
+                                        <li>Silk</li>
+                                        <li>Ready To Wear Outfits</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="public/clientassets/images/1.jpg" style="width: 100%; height: 221px; object-fit:cover"  alt="">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
 
                     </div>
 
@@ -145,7 +191,7 @@
                         .navbar a {
                             text-decoration: none;
                             color: black;
-                            width: 70px;
+                            width: 90px;
                             display: block;
                             padding-bottom: 15px;
                             font-size: 15px;
