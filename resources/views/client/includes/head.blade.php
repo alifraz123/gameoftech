@@ -215,3 +215,87 @@
 
 
     </header>
+
+    <div id="sidebar_" class="leftbar_onclick">
+    <div style="border-bottom: 1px solid gainsboro;margin:0;align-items:center" class="row">
+        <div style="text-align: left;margin-top:10px" class="col-md-6">
+            <p>SHOPPING CART</p>
+        </div>
+        <div style="text-align: right;" class="col-md-6">
+            <p style="cursor:pointer;margin-top:10px" onclick="hide_sidebar()">&#10006;</p>
+        </div>
+    </div>
+
+    <div style="margin: 0; margin-top:20px;text-align:center;" class="row">
+        <div class="col-md-6">
+            <img style="width: 100%;object-fit:contain" src="public/clientassets/images/razer.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+            <p style="line-height: 2;">Engima </p>
+            <p style="line-height: 0;">100ml</p>
+            <p style="line-height: 1;">Rs. 2990.00</p>
+            <div style="border: 1px solid black; padding:6px">
+                <button style="border: none;float: left;background-color:white;cursor:pointer"><i class="fa fa-trash-o"></i></button>
+                <input style="width: 17px;border: navajowhite;" type="text" value="1">
+                <button style="border: none;float: right;background-color:white;cursor:pointer">+</button>
+            </div>
+
+        </div>
+    </div>
+
+  
+        <div style="margin: 0;position:absolute;bottom:0" class="row">
+            <div class="col-md-6">
+               <p style="font-weight: bold;font-size: 20px;">Subtotal:</p> 
+            </div>
+            <div style="float: right;" class="col-md-6">
+                <p style="float:right;font-size:22px">R.s 4980:00</p>
+            </div>
+
+            <div style="margin: 0;" class="row">
+        <div  class="col-md-12">
+            <button style="width: 114%;
+    padding: 10px;
+    background-color: white;">
+                <a href="cart" style="color:black; padding: 10px; width: 114%;text-decoration:none">VIEW CART</a>
+            </button>
+            
+            </div>
+            <div class="col-md-12">
+            <button style="border: 1px solid black;padding: 10px;width: 114%;background-color: black;color: white;margin-top: 10px;">
+            <a href="checkout" style="color:white; padding: 10px; width: 114%;text-decoration:none"> CHECK OUT </a>
+        </button>
+        </div>
+
+        </div>
+        </div>
+
+      
+        
+    
+</div>
+<style>
+    #sidebar_ {
+        display: none;
+    }
+
+    .leftbar_onclick {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 300px;
+        background-color: white;
+        height: 97.5vh;
+        z-index: 1;
+
+    }
+</style>
+<script>
+    function show_sidebar() {
+        document.getElementById('sidebar_').style.display = "block";
+    }
+
+    function hide_sidebar() {
+        document.getElementById('sidebar_').style.display = "none";
+    }
+</script>
