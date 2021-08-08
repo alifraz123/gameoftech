@@ -98,5 +98,121 @@
 
 </div>
 
+<div id="carouselExampleControls" style="margin-top: 0px;" class="carousel slide container" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="row">
+                <div class="col-md-3">
+
+                    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <div style="text-align: center;" class="card-body ">
+                           
+                            <p class="card-text">Stripped blended scarf </p>
+                            <p style="line-height: 0;">1548 PKR</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <div style="text-align: center;" class="card-body ">
+                           
+                            <p class="card-text">Stripped blended scarf </p>
+                            <p style="line-height: 0;">1548 PKR</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <div style="text-align: center;" class="card-body ">
+                            
+                            <p class="card-text">Stripped blended scarf </p>
+                            <p style="line-height: 0;">1548 PKR</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <div style="text-align: center;" class="card-body ">
+                            
+                            <p class="card-text">Stripped blended scarf </p>
+                            <p style="line-height: 0;">1548 PKR</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="carousel-item">
+        <div class="row">
+                <div class="col-md-3">
+
+                    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <div style="text-align: center;" class="card-body ">
+                            
+                            <p class="card-text">Stripped blended scarf </p>
+                            <p style="line-height: 0;">1548 PKR</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <div style="text-align: center;" class="card-body ">
+                           
+                            <p class="card-text">Stripped blended scarf </p>
+                            <p style="line-height: 0;">1548 PKR</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <div style="text-align: center;" class="card-body ">
+                            
+                            <p class="card-text">Stripped blended scarf </p>
+                            <p style="line-height: 0;">1548 PKR</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <div style="text-align: center;" class="card-body ">
+                            
+                            <p class="card-text">Stripped blended scarf </p>
+                            <p style="line-height: 0;">1548 PKR</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
 
 @endsection
