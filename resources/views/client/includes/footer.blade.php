@@ -163,26 +163,7 @@
 </footer>
 
 
-<script>
-    window.onscroll = function() {
-        myFunction()
-    };
 
-    var navbar = document.getElementById("navbar");
-    var navbarul = document.getElementById('navbarul');
-
-
-    function myFunction() {
-        if (window.pageYOffset >= 200) {
-            navbar.classList.add("sticky");
-            navbarul.classList.add("navbarul")
-        } else {
-            navbar.classList.remove("sticky");
-            navbarul.classList.remove("navbarul");
-
-        }
-    }
-</script>
 
 
 
