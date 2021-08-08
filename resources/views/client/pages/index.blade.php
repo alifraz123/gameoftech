@@ -570,10 +570,17 @@
 
             <div style="margin: 0;" class="row">
         <div  class="col-md-12">
-            <button style="border: 1px solid black; padding: 10px; width: 114%;">VIEW CART</button>
+            <button style="width: 114%;
+    padding: 10px;
+    background-color: white;">
+                <a href="cart" style="color:black; padding: 10px; width: 114%;text-decoration:none">VIEW CART</a>
+            </button>
+            
             </div>
             <div class="col-md-12">
-            <button style="border: 1px solid black;padding: 10px;width: 114%;background-color: black;color: white;margin-top: 10px;">CHECK OUT</button>
+            <button style="border: 1px solid black;padding: 10px;width: 114%;background-color: black;color: white;margin-top: 10px;">
+            <a href="checkout" style="color:white; padding: 10px; width: 114%;text-decoration:none"> CHECK OUT </a>
+        </button>
         </div>
 
         </div>

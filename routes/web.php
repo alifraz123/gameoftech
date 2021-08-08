@@ -14,5 +14,28 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('client/modules/homepagemod');
+    return view('client/pages/index');
+});
+
+Route::get('aboutus',function(){
+    return view('client/pages/aboutus');
+});
+
+Route::get('contactus',function(){
+    return view('client/pages/contactus');
+});
+Route::get('privacypolicy',function(){
+    return view('client/pages/privacy');
+});
+Route::get('exchange_and_return',function(){
+    return view('client/pages/exchange_and_return');
+});
+Route::get('cart',function(){
+    return view('client/pages/cart');
+});
+Route::get('checkout',function(){
+    return view('client/pages/checkout');
+});
+Route::get('detail',function(){
+    return view('client/pages/detail');
 });

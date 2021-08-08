@@ -69,16 +69,17 @@
                                 </div>
                                 <div class="col-lg-4 col-12 col-md-12">
                                     <div style="color: gray;font-size: 33px;text-align: center; margin-top:-15px;  font-family: serif;">
-                                <img src="public/clientassets/images/GameOfTech.png" style="width: 50%" alt="">
+                                    <a href="{{ url('/') }}"><img src="public/clientassets/images/GameOfTech.png" style="width: 50%" alt=""></a>
+                                
                                 </div>
                                 </div>
                                 <div style="text-align: right;" class="col-lg-4 col-12 col-md-12">
 
-                                    <i onclick="show_sidebar()" class="fa fa-search" style="font-size:24px;margin-left: 15px;margin-right:15px;cursor:pointer"></i>
-                                    <i onclick="show_sidebar()" class="fa fa-sign-in" style="font-size:24px;margin-left: 15px;margin-right:15px;cursor:pointer"></i>
-                                    <i onclick="show_sidebar()" class="fa fa-heart-o" style="font-size:24px;margin-left: 15px;margin-right:15px;cursor:pointer"></i>
-                                    <i onclick="show_sidebar()" class="fa fa-cart-plus" style="font-size:24px;margin-left: 15px;margin-right:15px;cursor:pointer"></i>
-                                    <i onclick="show_sidebar()" class="fa fa-truck" style="font-size:24px;margin-left: 15px;margin-right:15px;cursor:pointer"></i>
+                                    <i onclick="show_sidebar()" class="fa fa-search" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
+                                    <i onclick="show_sidebar()" class="fa fa-sign-in" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
+                                    <i onclick="show_sidebar()" class="fa fa-heart-o" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
+                                    <i onclick="show_sidebar()" class="fa fa-cart-plus" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
+                                    <i onclick="show_sidebar()" class="fa fa-truck" style="font-size:24px;margin-left: 7px;margin-right:30px;cursor:pointer"></i>
 
                                 </div>
 
