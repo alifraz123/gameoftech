@@ -343,7 +343,7 @@
             <a href="checkout" style="color:white; padding: 10px; width: 114%;text-decoration:none"> CHECK OUT </a>
         </button>
 
-        <p style="display: inline;">New Customer ? </p> <p onclick="gg()" style="display: inline;">Create Your Account</p>
+        <p style="display: inline;">New Customer ? <span style="color: blue; cursor:pointer" onclick="gg()">Create Your Account</span> </p> 
     
         </div>
     
@@ -448,7 +448,7 @@
             <a href="checkout" style="color:white; padding: 10px; width: 114%;text-decoration:none"> CHECK OUT </a>
         </button>
 
-        <p style="display: inline;">Already have an account ? </p> <p onclick="login()" style="display: inline;">Login here</p>
+        <p style="display: inline;">Already have an account ? <span style="color: blue;cursor:pointer" onclick="login()">Login here</span> </p> 
     
         </div>
     
