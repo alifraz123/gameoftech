@@ -76,7 +76,7 @@
                                 <div style="text-align: right;" class="col-lg-4 col-12 col-md-12">
 
                                     <i onclick="show_sidebar()" class="fa fa-search" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
-                                    <i onclick="show_sidebar()" class="fa fa-sign-in" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
+                                    <i onclick="show_sidebar_login()" class="fa fa-sign-in" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
                                     <i onclick="show_sidebar()" class="fa fa-heart-o" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
                                     <i onclick="show_sidebar()" class="fa fa-cart-plus" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
                                     <i onclick="show_sidebar()" class="fa fa-truck" style="font-size:24px;margin-left: 7px;margin-right:30px;cursor:pointer"></i>
@@ -216,6 +216,8 @@
 
     </header>
 
+
+<!-- This is sidebar code for view cart and checkout start -->
     <div id="sidebar_" class="leftbar_onclick">
     <div style="border-bottom: 1px solid gainsboro;margin:0;align-items:center" class="row">
         <div style="text-align: left;margin-top:10px" class="col-md-6">
@@ -299,3 +301,194 @@
         document.getElementById('sidebar_').style.display = "none";
     }
 </script>
+
+<!-- This is sidebar code for view cart and checkout end -->
+
+
+
+<!-- This is sidebar code for login start -->
+<div id="sidebar_login" class="leftbar_onclick">
+    <div style="border-bottom: 1px solid gainsboro;margin:0;align-items:center" class="row">
+        <div style="text-align: left;margin-top:10px" class="col-md-6">
+            <p>LOGIN</p>
+        </div>
+        <div style="text-align: right;" class="col-md-6">
+            <p style="cursor:pointer;margin-top:10px" onclick="hide_sidebar_login()">&#10006;</p>
+        </div>
+    </div>
+    <div style="width: 100%;
+    margin-left: auto;
+    margin-right: auto; margin-top:30px" class="row container">
+        <div class="col-md-12">
+            <label for="">Email *</label>
+            <input type="email" class="form-control">
+
+        </div>
+
+    </div>
+
+    <div style="width: 100%;
+    margin-left: auto;
+    margin-right: auto; margin-top:30px" class="row container">
+        <div class="col-md-12">
+            <label for="">PASSWORD *</label>
+            <input type="text" class="form-control">
+
+        </div>
+        
+    </div>
+    <div style="width:80%;margin-left:auto;margin-right:auto">
+
+    <button style="border: 1px solid black;padding: 10px;width: 100%;background-color: black;color: white;margin-top: 10px;">
+            <a href="checkout" style="color:white; padding: 10px; width: 114%;text-decoration:none"> CHECK OUT </a>
+        </button>
+
+        <p style="display: inline;">New Customer ? </p> <p onclick="gg()" style="display: inline;">Create Your Account</p>
+    
+        </div>
+    
+</div>
+
+
+
+
+
+
+<style>
+   
+    #sidebar_login {
+        display: none;
+    }
+
+    .leftbar_onclick {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 350px;
+        background-color: white;
+        height: 97.5vh;
+        z-index: 1;
+
+    }
+</style>
+<script>
+    function show_sidebar_login() {
+        document.getElementById('sidebar_login').style.display = "block";
+    }
+
+    function hide_sidebar_login() {
+        document.getElementById('sidebar_login').style.display = "none";
+    }
+</script>
+
+<!-- This is sidebar code for login end -->
+
+
+
+
+
+
+<!-- This is sidebar code for signup start -->
+<div id="sidebar_signup" class="leftbar_onclick">
+    <div style="border-bottom: 1px solid gainsboro;margin:0;align-items:center" class="row">
+        <div style="text-align: left;margin-top:10px" class="col-md-6">
+            <p>SIGN UP</p>
+        </div>
+        <div style="text-align: right;" class="col-md-6">
+            <p style="cursor:pointer;margin-top:10px" onclick="hide_sidebar_signup()">&#10006;</p>
+        </div>
+    </div>
+    <div style="width: 100%;
+    margin-left: auto;
+    margin-right: auto; margin-top:30px" class="row container">
+        <div class="col-md-12">
+            <label for="">FIRST NAME *</label>
+            <input type="text" class="form-control">
+
+        </div>
+
+    </div>
+
+    <div style="width: 100%;
+    margin-left: auto;
+    margin-right: auto; margin-top:30px" class="row container">
+        <div class="col-md-12">
+            <label for="">LAST NAME *</label>
+            <input type="text" class="form-control">
+
+        </div>
+        
+    </div>
+
+    <div style="width: 100%;
+    margin-left: auto;
+    margin-right: auto; margin-top:30px" class="row container">
+        <div class="col-md-12">
+            <label for="">Email *</label>
+            <input type="email" class="form-control">
+
+        </div>
+
+    </div>
+
+    <div style="width: 100%;
+    margin-left: auto;
+    margin-right: auto; margin-top:30px" class="row container">
+        <div class="col-md-12">
+            <label for="">PASSWORD *</label>
+            <input type="text" class="form-control">
+
+        </div>
+        
+    </div>
+
+    <div style="width:80%;margin-left:auto;margin-right:auto">
+
+    <button style="border: 1px solid black;padding: 10px;width: 100%;background-color: black;color: white;margin-top: 10px;">
+            <a href="checkout" style="color:white; padding: 10px; width: 114%;text-decoration:none"> CHECK OUT </a>
+        </button>
+
+        <p style="display: inline;">Already have an account ? </p> <p onclick="login()" style="display: inline;">Login here</p>
+    
+        </div>
+    
+</div>
+
+
+
+
+
+
+<style>
+   
+    #sidebar_signup {
+        display: none;
+    }
+
+    .leftbar_onclick {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 350px;
+        background-color: white;
+        height: 97.5vh;
+        z-index: 1;
+
+    }
+</style>
+<script>
+    function gg() {
+        document.getElementById('sidebar_signup').style.display = "block";
+    }
+    function login() {
+        document.getElementById('sidebar_signup').style.display = "none";
+        document.getElementById('sidebar_login').style.display = "block";
+    }
+
+    function hide_sidebar_signup() {
+        document.getElementById('sidebar_signup').style.display = "none";
+        document.getElementById('sidebar_login').style.display = "none";
+    }
+</script>
+
+<!-- This is sidebar code for signup end -->
