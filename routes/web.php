@@ -39,3 +39,6 @@ Route::get('checkout',function(){
 Route::get('detail',function(){
     return view('client/pages/detail');
 });
+Route::get('brands',function(){
+    return view('client/pages/brands');
+});
