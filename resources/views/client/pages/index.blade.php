@@ -2,7 +2,7 @@
 @section('content')
 <div class="container-fluid" style="border: 0.1px solid gray;background-color: white; margin-top:10px;margin-bottom:10px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
     <div style="margin-bottom:10px">
-        <h1 style="font-size: 25px;display:inline">Featured Categories</h1> <a style="display: inline;" href="">View All</a>
+        <h1 style="font-size: 25px;display:inline">Featured Categories</h1> <a style="display: inline;" href="categories">View All</a>
     </div>
     <div id="carouselExampleControls" style="margin-top: 0px;" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">

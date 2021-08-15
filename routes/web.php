@@ -42,3 +42,9 @@ Route::get('detail',function(){
 Route::get('brands',function(){
     return view('client/pages/brands');
 });
+Route::get('categories',function(){
+    return view('client/pages/categories');
+});
+Route::get('category',function(){
+    return view('client/pages/category');
+});

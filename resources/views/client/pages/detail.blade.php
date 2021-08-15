@@ -8,25 +8,23 @@
 <div style="width:90%;margin-left:auto;margin-right:auto;">
     <div class="row">
         <div class="col-md-7">
-            <div class="row">
-                <div class="col-md-6">
-                    <img style="width: 100%;height: 400px;margin-bottom:20px;" src="public/clientassets/images/1.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                    <img style="width: 100%;height: 400px;;margin-bottom:20px;" src="public/clientassets/images/1.jpg" alt="">
-                </div>
-
+            <div class="show" href="public/clientassets/images/1.jpg" style="z-index: 1;">
+                <img src="public/clientassets/images/1.jpg" id="show-img" alt="">
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img style="width: 100%;height: 400px;;margin-bottom:20px;" src="public/clientassets/images/1.jpg" alt="">
+            <div class="small-img">
+                <i class="fa fa-angle-left icon-left"></i>
+                <div class="small-container">
+                    <div class="small-img-roll">
+                        <img src="public/clientassets/images/1.jpg" class="show-small-img" alt="sfdf">
+                        <img src="public/clientassets/images/2.jpg" class="show-small-img" alt="asf">
+                        <img src="public/clientassets/images/3.jpg" class="show-small-img" alt="afdf">
+                        <img src="public/clientassets/images/4.jpg" class="show-small-img" alt="asdf">
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img style="width: 100%;height: 400px;;margin-bottom:20px;" src="public/clientassets/images/1.jpg" alt="">
-                </div>
-
+                <i class="fa fa-angle-right icon-right"></i>
             </div>
         </div>
+
         <div style="font-family: -webkit-pictograph;" class="col-md-5">
             <h1>Striped Blended Scarf</h1>
             <p>No Reviews</p>
@@ -39,36 +37,28 @@
                 <button style="border: none;float: right;background-color:white;cursor:pointer">+</button>
             </div>
             <div style="padding: 0;display:inline" class="col-md-12">
-                <button style="display:inline;border: 1px solid black;padding: 7px;width: 50%;background-color: black;color: white;margin-top: 10px;">CHECK OUT</button>
+                <button style="display:inline;border: 1px solid black;padding: 7px;width: 30%;background-color: black;color: white;margin-top: 10px;">CHECK OUT</button>
             </div>
             <div style="padding:0;display:inline;" class="col-md-12">
-                <button style="border: 1px solid black;padding: 7px;background-color: black;color: white;margin-top: 10px;">CH</button>
+                <button style="border: 1px solid black;padding: 7px;background-color: white;color: white;margin-top: 10px;width:8%">
+                    <i style="color: black;" class="fa fa-heart-o"></i>
+                </button>
             </div>
 
-
-            <ul class="nav nav-tabs" style="margin-top: 30px;" id="myTab" role="tablist">
-                <button style="margin:10px;background-color: white; background-color: white;height: 87px;border-radius: 50%;" class="nav-item">
-                    <a class="nav-link active" style="border:none" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
-                </button>
-                <button style="margin:10px;background-color: white; background-color: white;height: 87px;border-radius: 50%;" class="nav-item">
-                    <a class="nav-link" style="border:none" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
-                </button>
-                <button style="margin:10px;background-color: white; background-color: white;height: 87px;border-radius: 50%;" class="nav-item">
-                    <a class="nav-link" style="border:none" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Home</a>
-                </button>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    This is first tab data
-                </div>
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                    This is second tab data
-                </div>
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                    This is third tab data
-                </div>
-            </div>
-
+           <a href="#home">first</a>
+           <a href="#profile">second</a>
+           <a href="#contact">third</a>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+      This is first
+  </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+      this is second
+  </div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+      This is third
+  </div>
+</div>
 
 
         </div>
@@ -107,7 +97,7 @@
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
                         <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
-                           
+
                             <p class="card-text">Stripped blended scarf </p>
                             <p style="line-height: 0;">1548 PKR</p>
 
@@ -118,7 +108,7 @@
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
                         <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
-                           
+
                             <p class="card-text">Stripped blended scarf </p>
                             <p style="line-height: 0;">1548 PKR</p>
 
@@ -129,7 +119,7 @@
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
                         <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
-                            
+
                             <p class="card-text">Stripped blended scarf </p>
                             <p style="line-height: 0;">1548 PKR</p>
 
@@ -140,7 +130,7 @@
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
                         <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
-                            
+
                             <p class="card-text">Stripped blended scarf </p>
                             <p style="line-height: 0;">1548 PKR</p>
 
@@ -153,13 +143,13 @@
 
         </div>
         <div class="carousel-item">
-        <div class="row">
+            <div class="row">
                 <div class="col-md-3">
 
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
                         <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
-                            
+
                             <p class="card-text">Stripped blended scarf </p>
                             <p style="line-height: 0;">1548 PKR</p>
                         </div>
@@ -169,18 +159,7 @@
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
                         <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
-                           
-                            <p class="card-text">Stripped blended scarf </p>
-                            <p style="line-height: 0;">1548 PKR</p>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
-                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
-                        <div style="text-align: center;" class="card-body ">
-                            
                             <p class="card-text">Stripped blended scarf </p>
                             <p style="line-height: 0;">1548 PKR</p>
 
@@ -191,7 +170,18 @@
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
                         <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
-                            
+
+                            <p class="card-text">Stripped blended scarf </p>
+                            <p style="line-height: 0;">1548 PKR</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <div style="text-align: center;" class="card-body ">
+
                             <p class="card-text">Stripped blended scarf </p>
                             <p style="line-height: 0;">1548 PKR</p>
 
