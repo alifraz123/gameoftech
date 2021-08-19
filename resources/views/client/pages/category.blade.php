@@ -1,5 +1,8 @@
 @extends('client/layouts/otherpagelay')
 @section('content')
+<div>
+    <img style="object-fit: contain;width: 100%;" src="public/clientassets/images/tab_7.jpg" alt="">
+</div>
 <div style="background-color:white;border-bottom:1px solid gray;width:100%;height:100px;display:flex;align-items:center;">
 <div style="width: 90%;margin-left: auto;margin-right: auto;">
 <h2>Audio</h2>

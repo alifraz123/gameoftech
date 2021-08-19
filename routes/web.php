@@ -48,3 +48,10 @@ Route::get('categories',function(){
 Route::get('category',function(){
     return view('client/pages/category');
 });
+Route::get('subcategory',function(){
+    return view('client/pages/subcategory');
+});
+Route::get('subdowncategory',function(){
+    return view('client/pages/subdowncategory');
+});
+

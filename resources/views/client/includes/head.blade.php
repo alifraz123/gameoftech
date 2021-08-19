@@ -219,7 +219,7 @@
 
 
 <!-- This is sidebar code for view cart and checkout start -->
-    <div id="sidebar_" class="leftbar_onclick">
+    <div style="position: fixed;" id="sidebar_" class="leftbar_onclick">
     <div style="border-bottom: 1px solid gainsboro;margin:0;align-items:center" class="row">
         <div style="text-align: left;margin-top:10px" class="col-md-6">
             <p>SHOPPING CART</p>
@@ -307,8 +307,12 @@
 
 
 
+
+
+
+
 <!-- This is sidebar code for login start -->
-<div id="sidebar_login" class="leftbar_onclick">
+<div style="overflow: scroll;" id="sidebar_login" class="leftbar_onclick">
     <div style="border-bottom: 1px solid gainsboro;margin:0;align-items:center" class="row">
         <div style="text-align: left;margin-top:10px" class="col-md-6">
             <p>LOGIN</p>
@@ -367,7 +371,7 @@
         top: 0;
         width: 350px;
         background-color: white;
-        height: 97.5vh;
+        height: 100vh;
         z-index: 1;
 
     }
