@@ -116,18 +116,19 @@
 
                                     <div class="row">
                                         <div class="col-md col-6">
-                                            <input style="padding-top: 10px;
-    padding-bottom: 8px;
+                                            <input style="padding-top: 6px;
+    padding-bottom: 4px;
     font-size: 11px;
     text-align: left;
-    width: 160px;background-color: #f6f6f8;" class="" type="email" name="contact[email]" placeholder="Your email address" value="">
-                                            <button style="margin-left: 5px;
-    background-color: black;
+    width: 160px;
+    background-color: #f6f6f8;" class="" type="email" name="contact[email]" placeholder="Your email address" value="">
+                                            <button style="background-color: black;
     border: none;
     color: white;
-    padding-top: 6px;
-    padding-bottom: 8px;
-    text-align: center;
+    padding-bottom: 1px;
+    padding-right: inherit;
+    padding-left: revert;
+    text-align: inherit;
     text-decoration: none;
     font-size: 16px;
     margin: 0px -5px;
@@ -163,26 +164,7 @@
 </footer>
 
 
-<script>
-    window.onscroll = function() {
-        myFunction()
-    };
 
-    var navbar = document.getElementById("navbar");
-    var navbarul = document.getElementById('navbarul');
-
-
-    function myFunction() {
-        if (window.pageYOffset >= 200) {
-            navbar.classList.add("sticky");
-            navbarul.classList.add("navbarul")
-        } else {
-            navbar.classList.remove("sticky");
-            navbarul.classList.remove("navbarul");
-
-        }
-    }
-</script>
 
 
 
