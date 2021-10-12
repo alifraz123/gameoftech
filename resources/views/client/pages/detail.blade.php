@@ -36,6 +36,12 @@
                 <img onmouseover="show_result_image()" style="width: 50%;height:50%" id="myimage" src="public/clientassets/images/1.jpg">
                 <div id="myresult" class="img-zoom-result"></div>
             </div>
+            <div style="display:flex;justify-content:flex-start">
+                <img src="public/clientassets/images/1.jpg" style="width: 83px;height:83px;margin-top:5px;margin-right:5px" alt="">
+                <img src="public/clientassets/images/2.jpg" style="width: 83px;height:83px;margin-top:5px;margin-right:5px" alt="">
+                <img src="public/clientassets/images/3.jpg" style="width: 83px;height:83px;margin-top:5px;margin-right:5px" alt="">
+                <img src="public/clientassets/images/4.jpg" style="width: 83px;height:83px;margin-top:5px;margin-right:5px" alt="">
+            </div>
 
 
         </div>

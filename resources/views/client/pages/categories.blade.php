@@ -6,8 +6,6 @@
     }
 
     .subcategories_list {
-        -webkit-text-size-adjust: 100%;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         font-style: normal;
         cursor: default;
         visibility: visible;
