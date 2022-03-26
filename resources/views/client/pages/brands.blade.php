@@ -31,7 +31,7 @@
     <div style="border: 1px solid black;width:210px;float: left;
     margin-left: 2px;
     margin-right: 2px;">
-        <img src="public/clientassets/images/1.jpg" style="width: 210px;height:172px" alt="">
+        <img src="/clientassets/images/1.jpg" style="width: 210px;height:172px" alt="">
         <div style="margin: 0;height:50px;display:flex" class="">
             <div style="width: 104px;align-items: center;padding: 11px;" class="">
                 <p>1More</p>
@@ -46,7 +46,7 @@
     <div style="border: 1px solid black;width:210px;float: left;
     margin-left: 2px;
     margin-right: 2px;">
-        <img src="public/clientassets/images/1.jpg" style="width: 210px;height:172px" alt="">
+        <img src="/clientassets/images/1.jpg" style="width: 210px;height:172px" alt="">
         <div style="margin: 0;height:50px;display:flex" class="">
             <div style="width: 104px;align-items: center;padding: 11px;" class="">
                 <p>1More</p>
@@ -61,7 +61,7 @@
     <div style="border: 1px solid black;width:210px;float: left;
     margin-left: 2px;
     margin-right: 2px;">
-        <img src="public/clientassets/images/1.jpg" style="width: 210px;height:172px" alt="">
+        <img src="/clientassets/images/1.jpg" style="width: 210px;height:172px" alt="">
         <div style="margin: 0;height:50px;display:flex" class="">
             <div style="width: 104px;align-items: center;padding: 11px;" class="">
                 <p>1More</p>
@@ -76,7 +76,7 @@
     <div style="border: 1px solid black;width:210px;float: left;
     margin-left: 2px;
     margin-right: 2px;">
-        <img src="public/clientassets/images/1.jpg" style="width: 210px;height:172px" alt="">
+        <img src="/clientassets/images/1.jpg" style="width: 210px;height:172px" alt="">
         <div style="margin: 0;height:50px;display:flex" class="">
             <div style="width: 104px;align-items: center;padding: 11px;" class="">
                 <p>1More</p>
@@ -91,7 +91,7 @@
     <div style="border: 1px solid black;width:210px;float: left;
     margin-left: 2px;
     margin-right: 2px;">
-        <img src="public/clientassets/images/1.jpg" style="width: 210px;height:172px" alt="">
+        <img src="/clientassets/images/1.jpg" style="width: 210px;height:172px" alt="">
         <div style="margin: 0;height:50px;display:flex" class="">
             <div style="width: 104px;align-items: center;padding: 11px;" class="">
                 <p>1More</p>
@@ -104,7 +104,7 @@
 
     </div>
     <div style="border: 1px solid black;width:2190x;display:inline-block">
-        <img src="public/clientassets/images/1.jpg" style="width: 210px;height:172px" alt="">
+        <img src="/clientassets/images/1.jpg" style="width: 210px;height:172px" alt="">
         <div style="margin: 0;height:50px;display:flex" class="">
             <div style="width: 104px;align-items: center;padding: 11px;" class="">
                 <p>1More</p>

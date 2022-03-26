@@ -46,37 +46,37 @@
                     <div style="display:flex;align-items:center" class="col-md-2">
 
                         <div class="card" style="width: 14rem;">
-                        <img class="d-block w-100" style="height:100px;object-fit:contain" src="public/clientassets/images/apple.jpg" alt="First slide">
+                        <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/apple.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
                         <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="public/clientassets/images/Nanoleaf.jpg" alt="First slide">
+                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/Nanoleaf.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
                         <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="public/clientassets/images/asus.jpg" alt="First slide">
+                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
                         <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="public/clientassets/images/asus.jpg" alt="First slide">
+                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
                         <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="public/clientassets/images/asus.jpg" alt="First slide">
+                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
                         <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="public/clientassets/images/asus.jpg" alt="First slide">
+                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
@@ -90,37 +90,37 @@
                     <div style="display:flex;align-items:center" class="col-md-2">
 
                         <div class="card" style="width: 14rem;">
-                        <img class="d-block w-100" style="height:100px;object-fit:contain" src="public/clientassets/images/apple.jpg" alt="First slide">
+                        <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/apple.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
                         <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="public/clientassets/images/Nanoleaf.jpg" alt="First slide">
+                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/Nanoleaf.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
                         <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="public/clientassets/images/asus.jpg" alt="First slide">
+                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
                         <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="public/clientassets/images/asus.jpg" alt="First slide">
+                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
                         <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="public/clientassets/images/asus.jpg" alt="First slide">
+                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
                         <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="public/clientassets/images/asus.jpg" alt="First slide">
+                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
@@ -163,7 +163,7 @@
     
     <hr style="visibility:hidden">
     <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="public/clientassets/images/na1.webp" alt="First slide">
+        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
         <div class="card-body ">
             <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
            
@@ -178,7 +178,7 @@
         </div>
     </div>
     <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="public/clientassets/images/na1.webp" alt="First slide">
+        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
         <div class="card-body ">
             <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
            
@@ -193,7 +193,7 @@
         </div>
     </div>
     <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="public/clientassets/images/na1.webp" alt="First slide">
+        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
         <div class="card-body ">
             <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
            
@@ -208,7 +208,7 @@
         </div>
     </div>
     <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="public/clientassets/images/na1.webp" alt="First slide">
+        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
         <div class="card-body ">
             <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
            
@@ -223,7 +223,7 @@
         </div>
     </div>
     <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="public/clientassets/images/na1.webp" alt="First slide">
+        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
         <div class="card-body ">
             <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
            
@@ -238,7 +238,7 @@
         </div>
     </div>
     <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="public/clientassets/images/na1.webp" alt="First slide">
+        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
         <div class="card-body ">
             <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
            
@@ -253,7 +253,7 @@
         </div>
     </div>
     <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="public/clientassets/images/na1.webp" alt="First slide">
+        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
         <div class="card-body ">
             <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
            
@@ -268,7 +268,7 @@
         </div>
     </div>
     <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="public/clientassets/images/na1.webp" alt="First slide">
+        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
         <div class="card-body ">
             <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
            

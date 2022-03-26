@@ -121,7 +121,7 @@
     <div style="display:flex;width: 80%;margin-left: auto;margin-right: auto;margin-bottom:20px" class="">
 
       <div style="position:relative" class="">
-        <img src="public/clientassets/images/2.jpg" style="width: 80px;height:80px;" alt="">
+        <img src="/clientassets/images/2.jpg" style="width: 80px;height:80px;" alt="">
         <p style="border-radius: 50%;background-color: grey;color:white;text-align:center;position: absolute;
     top: -8px;
     right: -10px;
@@ -139,7 +139,7 @@
     <div style="display:flex;width: 80%;margin-left: auto;margin-right: auto;" class="">
 
       <div style="position:relative" class="">
-        <img src="public/clientassets/images/2.jpg" style="width: 80px;height:80px;" alt="">
+        <img src="/clientassets/images/2.jpg" style="width: 80px;height:80px;" alt="">
         <p style="border-radius: 50%;background-color: grey;color:white;text-align:center;position: absolute;
     top: -8px;
     right: -10px;

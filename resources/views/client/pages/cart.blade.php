@@ -26,7 +26,7 @@
     margin-bottom: 50px;border-bottom: 1px solid red;
     padding-bottom: 50px;" class="row">
         <div class="col-md-6">
-            <img style="width: 30%; height:170px;" src="public/clientassets/images/1.jpg" alt="">
+            <img style="width: 30%; height:170px;" src="/clientassets/images/1.jpg" alt="">
         </div>
         <div style="display: flex; align-items:center;" class="col-md-2">
             <p> R.s 1485.00</p>
@@ -50,7 +50,7 @@
     margin-bottom: 50px;border-bottom: 1px solid red;
     padding-bottom: 50px;" class="row">
         <div class="col-md-6">
-            <img style="width: 30%; height:170px;" src="public/clientassets/images/1.jpg" alt="">
+            <img style="width: 30%; height:170px;" src="/clientassets/images/1.jpg" alt="">
         </div>
         <div style="display: flex; align-items:center;" class="col-md-2">
             <p> R.s 1485.00</p>
@@ -121,7 +121,7 @@
                 <div class="col-md-3">
 
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
-                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
                            
                             <p class="card-text">Stripped blended scarf </p>
@@ -132,7 +132,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
-                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
                            
                             <p class="card-text">Stripped blended scarf </p>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
-                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
                             
                             <p class="card-text">Stripped blended scarf </p>
@@ -154,7 +154,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
-                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
                             
                             <p class="card-text">Stripped blended scarf </p>
@@ -173,7 +173,7 @@
                 <div class="col-md-3">
 
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
-                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
                             
                             <p class="card-text">Stripped blended scarf </p>
@@ -183,7 +183,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
-                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
                            
                             <p class="card-text">Stripped blended scarf </p>
@@ -194,7 +194,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
-                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
                             
                             <p class="card-text">Stripped blended scarf </p>
@@ -205,7 +205,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
-                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="public/clientassets/images/fp1.webp" alt="First slide">
+                        <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
                             
                             <p class="card-text">Stripped blended scarf </p>

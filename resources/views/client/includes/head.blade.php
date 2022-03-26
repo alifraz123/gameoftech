@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="public/clientassets/style.css">
+    <link rel="stylesheet" href="/clientassets/style.css">
     <title>GameOfTech</title>
     <style>
         body {
@@ -41,190 +41,183 @@
 <body>
 
 
-    <header id="ntheader" class="">
+    <header id="ntheader">
 
-        <div class="">
-            <div id="shopify-section-header_top" class="">
-                <div class="">
-                    <div class="">
-                        <div style="padding: 6px;background-color: gainsboro;" class="row ">
-                            <div class="col-lg-4 col-12 t col-md-12 ">
-                                <div style="color: gray;font-size: 12px;" class="">Call Us: +92(0)42 111-738-245</div>
-                            </div>
 
-                            <div class="col-lg-4 col-12 col-md-12">
-                                <div style="color: gray;font-size: 12px;text-align: center;" class="header-text">Free Shipping on all orders worth
-                                    <span class="">Rs. 2000</span> Above
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-12 col-md-12">
+        <div id="shopify-section-header_top">
 
-                            </div>
+            <div style="padding: 6px;background-color: gainsboro;margin:0" class="row">
+                <div class="col-lg-4 col-sm-12  col-md-4 ">
+                    <div style="color: gray;font-size: 12px;">Call Us: +92(0)42 111-738-245</div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12 col-md-4">
+                    <div style="color: gray;font-size: 12px;text-align: center;" class="header-text">Free Shipping on all orders worth
+                        <span>Rs. 2000</span> Above
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-4">
+
+                </div>
+            </div>
+
+            <div id="navbar" style="background: white;margin-top:-10px;z-index: 1;left: 0px;">
+                <div style="background-color:white;margin:25px 0 10px 0" class="row">
+                    <div class="col-lg-4 col-sm-12 col-md-4 ">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-md-4">
+                        <div style="color: gray;font-size: 33px;text-align: center; margin-top:-15px;  font-family: serif;">
+                            <a href="{{ url('/') }}"><img src="/clientassets/images/GameOfTech.png" style="width: 40%" alt=""></a>
+
                         </div>
+                    </div>
+                    <div style="text-align: right;" class="col-lg-4 col-sm-12 col-md-4">
 
-                        <div id="navbar" style="background: white;margin-top:-10px;
-    z-index: 1;
-    left: 0px;">
-                            <div style="margin-top:25px;background-color:white;margin-bottom:10px" class="row">
-                                <div class="col-lg-4 col-12 col-md-12 ">
+                        <i class="fa fa-search" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
+                        <i onclick="show_sidebar_login()" class="fa fa-sign-in" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
+                        <i class="fa fa-heart-o" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
+                        <i onclick="show_sidebar()" class="fa fa-cart-plus" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
+                        <i class="fa fa-truck" style="font-size:24px;margin-left: 7px;margin-right:30px;cursor:pointer"></i>
+
+                    </div>
+
+                </div>
+
+
+                <nav style="z-index: 1;padding:0px;border-top:1px solid gainsboro;padding-top: 19px;padding-bottom: 0px;" class="navbar sticky-top">
+                    <ul id="navbarul">
+                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">New In</a></li>
+                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Women</a></li>
+                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Man</a></li>
+                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Kids</a></li>
+                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Beauty</a></li>
+                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Accessories</a></li>
+                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Home</a></li>
+                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Style Guide</a></li>
+                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Store Locator</a></li>
+
+                    </ul>
+
+                </nav>
+                <style>
+                    .nav-hover {
+                        background-color: white;
+                        width: 100%;
+                        height: 300px;
+                        margin-top: 34px;
+                        position: absolute;
+                        top: 122px;
+                        z-index: 100;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        text-align: center;
+                    }
+                </style>
+
+
+                <div onmouseenter="fun()" onmouseleave="remove()" id="hovershow" class="hovershow nav-hover">
+                    <div class="container">
+                        <div style="margin-top: 40px;" class="row">
+                            <div class="col-md-3">
+                                <div style="border-bottom: 1px solid gray;text-align:left">
+                                    <h6>Ready To Wear</h6>
                                 </div>
-                                <div class="col-lg-4 col-12 col-md-12">
-                                    <div style="color: gray;font-size: 33px;text-align: center; margin-top:-15px;  font-family: serif;">
-                                        <a href="{{ url('/') }}"><img src="public/clientassets/images/GameOfTech.png" style="width: 50%" alt=""></a>
-
-                                    </div>
-                                </div>
-                                <div style="text-align: right;" class="col-lg-4 col-12 col-md-12">
-
-                                    <i class="fa fa-search" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
-                                    <i onclick="show_sidebar_login()" class="fa fa-sign-in" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
-                                    <i class="fa fa-heart-o" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
-                                    <i onclick="show_sidebar()" class="fa fa-cart-plus" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
-                                    <i class="fa fa-truck" style="font-size:24px;margin-left: 7px;margin-right:30px;cursor:pointer"></i>
-
-                                </div>
-
-                            </div>
-
-                           
-                            <nav style="z-index: 1;padding:0px;border-top:1px solid gainsboro;padding-top: 19px;
-    padding-bottom: 0px;" class="navbar sticky-top">
-                                <ul id="navbarul">
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">New In</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Women</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Man</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Kids</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Beauty</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Accessories</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Home</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Style Guide</a></li>
-                                    <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Store Locator</a></li>
-
+                                <ul style="text-align: left; list-style-type:none;padding:0">
+                                    <li>Printed</li>
+                                    <li>Solid Colored</li>
+                                    <li>Luxury Pret</li>
+                                    <li>Embroided</li>
+                                    <li>Silk</li>
+                                    <li>Ready To Wear Outfits</li>
                                 </ul>
-
-                            </nav>
-                            <style>
-                        .nav-hover {
-                            background-color: white;
-                            width: 100%;
-                            height: 300px;
-                            margin-top: 34px;
-                            position: absolute;
-                            top: 122px;
-                            z-index: 100;
-                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                            text-align: center;
-                        }
-                    </style>
-
-
-                    <div onmouseenter="fun()" onmouseleave="remove()" id="hovershow" class="hovershow nav-hover">
-                        <div class="container">
-                            <div style="margin-top: 40px;" class="row">
-                                <div class="col-md-3">
-                                    <div style="border-bottom: 1px solid gray;text-align:left">
-                                        <h6>Ready To Wear</h6>
-                                    </div>
-                                    <ul style="text-align: left; list-style-type:none;padding:0">
-                                        <li>Printed</li>
-                                        <li>Solid Colored</li>
-                                        <li>Luxury Pret</li>
-                                        <li>Embroided</li>
-                                        <li>Silk</li>
-                                        <li>Ready To Wear Outfits</li>
-                                    </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <div style="border-bottom: 1px solid gray;text-align:left">
+                                    <h6>Ready To Wear</h6>
                                 </div>
-                                <div class="col-md-3">
-                                    <div style="border-bottom: 1px solid gray;text-align:left">
-                                        <h6>Ready To Wear</h6>
-                                    </div>
-                                    <ul style="text-align: left; list-style-type:none;padding:0">
-                                        <li>Printed</li>
-                                        <li>Solid Colored</li>
-                                        <li>Luxury Pret</li>
-                                        <li>Embroided</li>
-                                        <li>Silk</li>
-                                        <li>Ready To Wear Outfits</li>
-                                    </ul>
+                                <ul style="text-align: left; list-style-type:none;padding:0">
+                                    <li>Printed</li>
+                                    <li>Solid Colored</li>
+                                    <li>Luxury Pret</li>
+                                    <li>Embroided</li>
+                                    <li>Silk</li>
+                                    <li>Ready To Wear Outfits</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <div style="border-bottom: 1px solid gray;text-align:left">
+                                    <h6>Ready To Wear</h6>
                                 </div>
-                                <div class="col-md-3">
-                                    <div style="border-bottom: 1px solid gray;text-align:left">
-                                        <h6>Ready To Wear</h6>
-                                    </div>
-                                    <ul style="text-align: left; list-style-type:none;padding:0">
-                                        <li>Printed</li>
-                                        <li>Solid Colored</li>
-                                        <li>Luxury Pret</li>
-                                        <li>Embroided</li>
-                                        <li>Silk</li>
-                                        <li>Ready To Wear Outfits</li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-3">
-                                    <img src="public/clientassets/images/1.jpg" style="width: 100%; height: 221px; object-fit:cover" alt="">
-
-                                </div>
+                                <ul style="text-align: left; list-style-type:none;padding:0">
+                                    <li>Printed</li>
+                                    <li>Solid Colored</li>
+                                    <li>Luxury Pret</li>
+                                    <li>Embroided</li>
+                                    <li>Silk</li>
+                                    <li>Ready To Wear Outfits</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="/clientassets/images/1.jpg" style="width: 100%; height: 221px; object-fit:cover" alt="">
 
                             </div>
 
                         </div>
-
-
-                    </div>
-                        </div>
-
-
-                    </div>
-
-
-                    <script>
-                        function fun() {
-                            document.getElementById('hovershow').style.display = 'block';
-                        }
-
-                        function remove() {
-                            document.getElementById('hovershow').style.display = 'none';
-                        }
-                    </script>
-
-                    <style>
-                        .navbar ul {
-                            list-style: none;
-                            padding: 0;
-                            margin: 0;
-                            background-color: white;
-                            color: black;
-                            text-align: center;
-                            width: 100%;
-                        }
-
-                        .navbar li {
-                            display: inline-block;
-                        }
-
-                        .navbar a {
-                            text-decoration: none;
-                            color: black;
-                            width: 90px;
-                            display: block;
-                            padding-bottom: 25px;
-                            font-size: 15px;
-
-                        }
-                    </style>
-
-                    <div>
 
                     </div>
 
 
                 </div>
-
-
-
             </div>
 
+
         </div>
+
+
+        <script>
+            function fun() {
+                document.getElementById('hovershow').style.display = 'block';
+            }
+
+            function remove() {
+                document.getElementById('hovershow').style.display = 'none';
+            }
+        </script>
+
+        <style>
+            .navbar ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                background-color: white;
+                color: black;
+                text-align: center;
+                width: 100%;
+            }
+
+            .navbar li {
+                display: inline-block;
+            }
+
+            .navbar a {
+                text-decoration: none;
+                color: black;
+                width: 90px;
+                display: block;
+                padding-bottom: 25px;
+                font-size: 15px;
+
+            }
+        </style>
+
+        <div>
+
+
+
+
+
+        </div>
+
+
 
 
     </header>
@@ -243,7 +236,7 @@
 
         <div style="margin: 0; margin-top:20px;text-align:center;" class="row">
             <div class="col-md-6">
-                <img style="width: 100%;object-fit:contain" src="public/clientassets/images/razer.jpg" alt="">
+                <img style="width: 100%;object-fit:contain" src="/clientassets/images/razer.jpg" alt="">
             </div>
             <div class="col-md-6">
                 <p style="line-height: 2;">Engima </p>
@@ -269,7 +262,7 @@
 
             <div style="margin: 0;" class="row">
                 <div class="col-md-12">
-                    <button style="width: 114%;
+                    <button style="width: 100%;
     padding: 10px;
     background-color: white;">
                         <a href="cart" style="color:black; padding: 10px; width: 114%;text-decoration:none">VIEW CART</a>
@@ -507,24 +500,24 @@
         }
     </script>
     <script>
-    window.onscroll = function() {
-        myFunction()
-    };
+        window.onscroll = function() {
+            myFunction()
+        };
 
-    var navbar = document.getElementById("navbar");
-    var navbarul = document.getElementById('navbarul');
+        var navbar = document.getElementById("navbar");
+        var navbarul = document.getElementById('navbarul');
 
 
-    function myFunction() {
-        if (window.pageYOffset >= 200) {
-            navbar.classList.add("sticky");
-            navbarul.classList.add("navbarul")
-        } else {
-            navbar.classList.remove("sticky");
-            navbarul.classList.remove("navbarul");
+        function myFunction() {
+            if (window.pageYOffset >= 200) {
+                navbar.classList.add("sticky");
+                navbarul.classList.add("navbarul")
+            } else {
+                navbar.classList.remove("sticky");
+                navbarul.classList.remove("navbarul");
 
+            }
         }
-    }
-</script>
+    </script>
 
     <!-- This is sidebar code for signup end -->

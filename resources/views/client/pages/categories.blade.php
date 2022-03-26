@@ -32,7 +32,7 @@
 <div style="column-count: 4;text-align:center;width: 90%;margin-left: auto;margin-right: auto;" class="container-fluid">
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem;text-align:center" class="card ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="public/clientassets/images/c1.png" alt="">
+        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c1.png" alt="">
         <div class="card-body">
           
        
@@ -54,7 +54,7 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="public/clientassets/images/c2.png" alt="">
+        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c2.png" alt="">
         <div class="card-body">
 
             <ul class="subcategories_list">
@@ -80,7 +80,7 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="public/clientassets/images/c3.png" alt="">
+        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c3.png" alt="">
         <div class="card-body">
 
             <ul class="subcategories_list">
@@ -107,7 +107,7 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="public/clientassets/images/c4.png" alt="">
+        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c4.png" alt="">
         <div class="card-body">
 
             <ul class="subcategories_list">
@@ -123,7 +123,7 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="public/clientassets/images/c5.png" alt="">
+        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c5.png" alt="">
         <div class="card-body">
 
             <ul class="subcategories_list">
@@ -142,7 +142,7 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="public/clientassets/images/c6.png" alt="">
+        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c6.png" alt="">
         <div class="card-body">
 
             <ul class="subcategories_list">
@@ -163,7 +163,7 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="public/clientassets/images/c7.png" alt="">
+        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c7.png" alt="">
         <div class="card-body">
 
             <ul class="subcategories_list">
@@ -178,7 +178,7 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="public/clientassets/images/c8.png" alt="">
+        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c8.png" alt="">
         <div class="card-body">
 
             <ul class="subcategories_list">
@@ -197,7 +197,7 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="public/clientassets/images/c9.png" alt="">
+        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c9.png" alt="">
         <div class="card-body">
 
             <ul class="subcategories_list">
@@ -216,7 +216,7 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="public/clientassets/images/c10.png" alt="">\
+        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c10.png" alt="">\
         <div class="card-body">
 
             <ul class="subcategories_list">
