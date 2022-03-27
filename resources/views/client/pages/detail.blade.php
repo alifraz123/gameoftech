@@ -25,7 +25,7 @@
         border: 1px solid #d4d4d4;
         /*set the size of the result div:*/
         width: 50%;
-        height: 310px;
+        height: auto;
     }
 </style>
 <div style="width:90%;margin-left:auto;margin-right:auto;">
@@ -64,10 +64,10 @@
                 <button style="border: none;float: right;background-color:white;cursor:pointer">+</button>
             </div>
             <div style="padding: 0;display:inline" class="col-md-12">
-                <button style="display:inline;border: 1px solid black;padding: 7px;width: 30%;background-color: black;color: white;margin-top: 10px;">CHECK OUT</button>
+                <button style="display:inline;border: 1px solid black;padding: 7px;width: 50%;background-color: black;color: white;margin-top: 10px;">CHECK OUT</button>
             </div>
             <div style="padding:0;display:inline;" class="col-md-12">
-                <button style="border: 1px solid black;padding: 7px;background-color: white;color: white;margin-top: 10px;width:8%">
+                <button style="border: 1px solid black;padding: 7px;background-color: white;color: white;margin-top: 10px;width:10%">
                     <i style="color: black;" class="fa fa-heart-o"></i>
                 </button>
             </div>
@@ -124,25 +124,20 @@
         </div>
 
 
-
-
-
-        <div style="width: 35%;margin-top:50px;
-    margin-left: auto;
-    margin-right: auto;margin-bottom:50px">
-            <div style="display: inline;">
-                <hr style="width: 130px;
+        <div style="width:100%;text-align:center;margin-left: auto;margin-right: auto;margin-bottom:50px">
+        <div style="display: inline;">
+            <hr style="width: 100px;
     background-color: red; height:0px;display:inline-block;margin:auto">
-            </div>
-            <div style="display: inline;">
-                <p style="display: inline-block;">You May Like</p>
-            </div>
-            <div style="display: inline;">
-                <hr style="width: 130px;
-    background-color: red;height:0px;display:inline-block;margin:auto">
-            </div>
-
         </div>
+        <div style="display: inline;">
+            <p style="display: inline-block;">You May Like</p>
+        </div>
+        <div style="display: inline;">
+            <hr style="width: 100px;
+    background-color: red;height:0px;display:inline-block;margin:auto">
+        </div>
+
+    </div>
 
     </div>
 
@@ -152,7 +147,7 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 col-lg-3 col-sm-12">
 
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
                         <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="/clientassets/images/fp1.webp" alt="First slide">
@@ -164,7 +159,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-lg-3 col-sm-12">
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
                         <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
@@ -175,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-lg-3 col-sm-12">
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
                         <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">
@@ -186,7 +181,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-lg-3 col-sm-12">
                     <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
                         <img class="d-block w-100 image" style="height:370px;object-fit:cover" src="/clientassets/images/fp1.webp" alt="First slide">
                         <div style="text-align: center;" class="card-body ">

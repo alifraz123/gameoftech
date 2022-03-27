@@ -16,26 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/clientassets/style.css">
     <title>GameOfTech</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        .sticky {
-            position: fixed;
-            top: 10px;
-            width: 100%;
-        }
-
-        .navbarul {
-            padding-top: 14px !important;
-        }
-
-        .hovershow {
-            display: none;
-        }
-    </style>
+   
 </head>
 
 <body>
@@ -47,7 +28,7 @@
         <div id="shopify-section-header_top">
 
             <div style="padding: 6px;background-color: gainsboro;margin:0" class="row">
-                <div class="col-lg-4 col-sm-12  col-md-4 ">
+                <div class="col-lg-4 col-sm-12  col-md-4 topbar">
                     <div style="color: gray;font-size: 12px;">Call Us: +92(0)42 111-738-245</div>
                 </div>
 
@@ -84,7 +65,7 @@
                 </div>
 
 
-                <nav style="z-index: 1;padding:0px;border-top:1px solid gainsboro;padding-top: 19px;padding-bottom: 0px;" class="navbar sticky-top">
+                <nav style="display:none;z-index: 1;padding:0px;border-top:1px solid gainsboro;padding-top: 19px;padding-bottom: 0px;" class="navbar sticky-top">
                     <ul id="navbarul">
                         <li><a onmouseenter="fun()" onmouseleave="remove()" href="">New In</a></li>
                         <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Women</a></li>

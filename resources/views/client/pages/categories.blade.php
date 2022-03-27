@@ -29,11 +29,11 @@
     <h2>Categories</h2>
 </div>
 
-<div style="column-count: 4;text-align:center;width: 90%;margin-left: auto;margin-right: auto;" class="container-fluid">
+<div class="container-fluid categoryClass">
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem;text-align:center" class="card ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c1.png" alt="">
-        <div class="card-body">
+        <img class="d-block w-100"  style="background-color:gainsboro" src="/clientassets/images/c1.png" alt="">
+        <div class="card-body" >
           
        
             <ul class="subcategories_list">
@@ -54,8 +54,8 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c2.png" alt="">
-        <div class="card-body">
+        <img class="d-block w-100" style="background-color:gainsboro" src="/clientassets/images/c2.png" alt="">
+        <div class="card-body" style="width: auto;">
 
             <ul class="subcategories_list">
                   <h5 style="text-align: left;">Computer & Accessories</h5>
@@ -80,8 +80,8 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c3.png" alt="">
-        <div class="card-body">
+        <img class="d-block w-100" style="background-color:gainsboro" src="/clientassets/images/c3.png" alt="">
+        <div class="card-body" style="width: auto;">
 
             <ul class="subcategories_list">
                   <h5 style="text-align: left;">GPS, Marine & Car Electronics</h5>
@@ -107,8 +107,8 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c4.png" alt="">
-        <div class="card-body">
+        <img class="d-block w-100" style="background-color:gainsboro" src="/clientassets/images/c4.png" alt="">
+        <div class="card-body" style="width: auto;">
 
             <ul class="subcategories_list">
                   <h5 style="text-align: left;">Sports & Outdoor</h5>
@@ -123,8 +123,8 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c5.png" alt="">
-        <div class="card-body">
+        <img class="d-block w-100" style="background-color:gainsboro" src="/clientassets/images/c5.png" alt="">
+        <div class="card-body" style="width: auto;">
 
             <ul class="subcategories_list">
                   <h5 style="text-align: left;">Camera Camcoder & Photo</h5>
@@ -142,8 +142,8 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c6.png" alt="">
-        <div class="card-body">
+        <img class="d-block w-100" style="background-color:gainsboro" src="/clientassets/images/c6.png" alt="">
+        <div class="card-body" style="width: auto;">
 
             <ul class="subcategories_list">
                   <h5 style="text-align: left;">Drones & Toys</h5>
@@ -163,8 +163,8 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c7.png" alt="">
-        <div class="card-body">
+        <img class="d-block w-100" style="background-color:gainsboro" src="/clientassets/images/c7.png" alt="">
+        <div class="card-body" style="width: auto;">
 
             <ul class="subcategories_list">
                   <h5 style="text-align: left;">Audio</h5>
@@ -178,8 +178,8 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c8.png" alt="">
-        <div class="card-body">
+        <img class="d-block w-100" style="background-color:gainsboro" src="/clientassets/images/c8.png" alt="">
+        <div class="card-body" style="width: auto;">
 
             <ul class="subcategories_list">
                   <h5 style="text-align: left;">Health Fitness Bueaty</h5>
@@ -197,8 +197,8 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c9.png" alt="">
-        <div class="card-body">
+        <img class="d-block w-100" style="background-color:gainsboro" src="/clientassets/images/c9.png" alt="">
+        <div class="card-body" style="width: auto;">
 
             <ul class="subcategories_list">
                   <h5 style="text-align: left;">TV & Videos</h5>
@@ -216,8 +216,8 @@
     </div>
     <div style="display:inline-block;padding-top:10px;margin-top:2vh;width:18rem" class="card  ">
 
-        <img style="width: 250px;height:250px;background-color:gainsboro" src="/clientassets/images/c10.png" alt="">\
-        <div class="card-body">
+        <img class="d-block w-100" style="background-color:gainsboro" src="/clientassets/images/c10.png" alt="">\
+        <div class="card-body" style="width: auto;">
 
             <ul class="subcategories_list">
                   <h5 style="text-align: left;">Cell Phone Accessories & Tablets</h5>

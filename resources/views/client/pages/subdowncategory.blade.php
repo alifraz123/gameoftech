@@ -1,39 +1,5 @@
 @extends('client/layouts/otherpagelay')
 @section('content')
-<style>
-    .mainclass {
-        position: relative;
-        width: 50%;
-    }
-
-    .image {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
-
-    .middle {
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-    }
-
-    .mainclass:hover .image {
-        opacity: 0.3;
-    }
-
-    .mainclass:hover .middle {
-        opacity: 1;
-    }
-</style>
 
 <div class="container-fluid" style="border: 0.1px solid gray;background-color: white; margin-top:10px;margin-bottom:10px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
     <div style="margin-bottom:10px; padding-top:10px">
@@ -45,38 +11,38 @@
                 <div style="padding-bottom: 40px" class="row">
                     <div style="display:flex;align-items:center" class="col-md-2">
 
-                        <div class="card" style="width: 14rem;">
-                        <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/apple.jpg" alt="First slide">
+                        <div class="card" style="width: auto">
+                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/apple.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/Nanoleaf.jpg" alt="First slide">
+                        <div class="card" style="width: auto">
+                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/Nanoleaf.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
+                        <div class="card" style="width: auto">
+                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
+                        <div class="card" style="width: auto">
+                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
+                        <div class="card" style="width: auto">
+                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
+                        <div class="card" style="width: auto">
+                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
@@ -89,38 +55,38 @@
                 <div style="padding-bottom: 40px" class="row">
                     <div style="display:flex;align-items:center" class="col-md-2">
 
-                        <div class="card" style="width: 14rem;">
-                        <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/apple.jpg" alt="First slide">
+                        <div class="card" style="width: auto">
+                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/apple.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/Nanoleaf.jpg" alt="First slide">
+                        <div class="card" style="width: auto">
+                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/Nanoleaf.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
+                        <div class="card" style="width: auto">
+                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
+                        <div class="card" style="width: auto">
+                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
+                        <div class="card" style="width: auto">
+                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
                     <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: 14rem;">
-                          <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
+                        <div class="card" style="width: auto">
+                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
 
                         </div>
                     </div>
@@ -144,8 +110,8 @@
 </div>
 
 <div style="background-color:white;border-bottom:1px solid gray;width:100%;height:100px;display:flex;align-items:center;">
-    <div class="" style="width: 90%;margin-left: auto;margin-right: auto;">
-        <div style="float: left;" class="">
+    <div class="image" style="width: 90%;margin-left: auto;margin-right: auto;">
+        <div style="float: left;" class="image">
             <h4>Speaker Accessories</h4>
         </div>
         <div style="float: right;">
@@ -159,130 +125,133 @@
 
 
 
-<div class="container-fluid" style="margin-top:10px;margin-bottom:10px;background-color: white; margin-top:10px;margin-bottom:10px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-    
+<div class="container-fluid" style="margin:10px 0 10px 0;background-color: white;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+
     <hr style="visibility:hidden">
-    <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
-        <div class="card-body ">
-            <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
-           
-            <p style="line-height: 1;">Anker soundsync bluetooth reciever</p>
-            <p style="line-height: 1;">R.s 5555</p>
-            <p style="color: red; line-height:0">In Stock</p>
+    <div style="display: flex;flex-wrap:wrap;">
 
-            <div style="border-top: 1px solid gray;margin-top:50px">
-                Add to cart
+    <div class="card mainclass" style="width:auto;text-align:center;display:inline-block;margin:3px;">
+            <img class="image" style="width:auto;height:155px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
+            <div class="card-body ">
+                <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
+
+                <p style="line-height: 1;width:25vw">Anker soundsync bluetooth reciever</p>
+                <p style="line-height: 1;">R.s 5555</p>
+                <p style="color: red; line-height:0">In Stock</p>
+
+                <div style="border-top: 1px solid gray;margin-top:50px">
+                    Add to cart
+                </div>
+
             </div>
-           
+        </div>
+
+        <div class="card mainclass" style="width:auto;text-align:center;display:inline-block;margin:3px">
+            <img class="image" style="width:auto;height:155px;object-fit:cover;" src="/clientassets/images/na1.webp" alt="First slide">
+            <div class="card-body ">
+                <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
+
+
+                <p style="line-height: 1;width:25vw;text-align:center">Anker soundsync bluetooth reciever</p>
+                <p style="line-height: 1;">R.s 5555</p>
+                <p style="color: red; line-height:0">In Stock</p>
+
+                <div style="border-top: 1px solid gray;margin-top:50px">
+                    Add to cart
+                </div>
+            </div>
+        </div>
+        <div class="card mainclass" style="text-align:center;width:auto;display:inline-block;margin:0px; margin:0 0 5px 0">
+            <img class="image" style="height:170px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
+            <div class="card-body ">
+                <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
+
+                <p style="line-height: 1;width:25vw">Anker soundsync bluetooth reciever</p>
+                <p style="line-height: 1;">R.s 5555</p>
+                <p style="color: red; line-height:0">In Stock</p>
+
+                <div style="border-top: 1px solid gray;margin-top:50px">
+                    Add to cart
+                </div>
+
+            </div>
+        </div>
+        <div class="card mainclass" style="text-align:center;width:auto;display:inline-block;margin:0px; margin:0 0 5px 0">
+            <img class="image" style="height:170px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
+            <div class="card-body ">
+                <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
+
+                <p style="line-height: 1;width:25vw">Anker soundsync bluetooth reciever</p>
+                <p style="line-height: 1;">R.s 5555</p>
+                <p style="color: red; line-height:0">In Stock</p>
+
+                <div style="border-top: 1px solid gray;margin-top:50px">
+                    Add to cart
+                </div>
+
+            </div>
+        </div>
+        <div class="card mainclass" style="text-align:center;width:auto;display:inline-block;margin:0px; margin:0 0 5px 0">
+            <img class="image" style="height:170px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
+            <div class="card-body ">
+                <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
+
+                <p style="line-height: 1;width:25vw">Anker soundsync bluetooth reciever</p>
+                <p style="line-height: 1;">R.s 5555</p>
+                <p style="color: red; line-height:0">In Stock</p>
+
+                <div style="border-top: 1px solid gray;margin-top:50px">
+                    Add to cart
+                </div>
+
+            </div>
+        </div>
+        <div class="card mainclass" style="text-align:center;width:auto;display:inline-block;margin:0px; margin:0 0 5px 0">
+            <img class="image" style="height:170px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
+            <div class="card-body ">
+                <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
+
+                <p style="line-height: 1;width:25vw">Anker soundsync bluetooth reciever</p>
+                <p style="line-height: 1;">R.s 5555</p>
+                <p style="color: red; line-height:0">In Stock</p>
+
+                <div style="border-top: 1px solid gray;margin-top:50px">
+                    Add to cart
+                </div>
+
+            </div>
+        </div>
+        <div class="card mainclass" style="text-align:center;width:auto;display:inline-block;margin:0px; margin:0 0 5px 0">
+            <img class="image" style="height:170px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
+            <div class="card-body ">
+                <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
+
+                <p style="line-height: 1;width:25vw">Anker soundsync bluetooth reciever</p>
+                <p style="line-height: 1;">R.s 5555</p>
+                <p style="color: red; line-height:0">In Stock</p>
+
+                <div style="border-top: 1px solid gray;margin-top:50px">
+                    Add to cart
+                </div>
+
+            </div>
+        </div>
+        <div class="card mainclass" style="text-align:center;width:auto;display:inline-block;margin:0px; margin:0 0 5px 0">
+            <img class="image" style="height:170px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
+            <div class="card-body ">
+                <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
+
+                <p style="line-height: 1;width:25vw">Anker soundsync bluetooth reciever</p>
+                <p style="line-height: 1;">R.s 5555</p>
+                <p style="color: red; line-height:0">In Stock</p>
+
+                <div style="border-top: 1px solid gray;margin-top:50px">
+                    Add to cart
+                </div>
+
+            </div>
         </div>
     </div>
-    <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
-        <div class="card-body ">
-            <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
-           
-            <p style="line-height: 1;">Anker soundsync bluetooth reciever</p>
-            <p style="line-height: 1;">R.s 5555</p>
-            <p style="color: red; line-height:0">In Stock</p>
-
-            <div style="border-top: 1px solid gray;margin-top:50px">
-                Add to cart
-            </div>
-           
-        </div>
-    </div>
-    <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
-        <div class="card-body ">
-            <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
-           
-            <p style="line-height: 1;">Anker soundsync bluetooth reciever</p>
-            <p style="line-height: 1;">R.s 5555</p>
-            <p style="color: red; line-height:0">In Stock</p>
-
-            <div style="border-top: 1px solid gray;margin-top:50px">
-                Add to cart
-            </div>
-           
-        </div>
-    </div>
-    <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
-        <div class="card-body ">
-            <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
-           
-            <p style="line-height: 1;">Anker soundsync bluetooth reciever</p>
-            <p style="line-height: 1;">R.s 5555</p>
-            <p style="color: red; line-height:0">In Stock</p>
-
-            <div style="border-top: 1px solid gray;margin-top:50px">
-                Add to cart
-            </div>
-           
-        </div>
-    </div>
-    <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
-        <div class="card-body ">
-            <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
-           
-            <p style="line-height: 1;">Anker soundsync bluetooth reciever</p>
-            <p style="line-height: 1;">R.s 5555</p>
-            <p style="color: red; line-height:0">In Stock</p>
-
-            <div style="border-top: 1px solid gray;margin-top:50px">
-                Add to cart
-            </div>
-           
-        </div>
-    </div>
-    <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
-        <div class="card-body ">
-            <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
-           
-            <p style="line-height: 1;">Anker soundsync bluetooth reciever</p>
-            <p style="line-height: 1;">R.s 5555</p>
-            <p style="color: red; line-height:0">In Stock</p>
-
-            <div style="border-top: 1px solid gray;margin-top:50px">
-                Add to cart
-            </div>
-           
-        </div>
-    </div>
-    <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
-        <div class="card-body ">
-            <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
-           
-            <p style="line-height: 1;">Anker soundsync bluetooth reciever</p>
-            <p style="line-height: 1;">R.s 5555</p>
-            <p style="color: red; line-height:0">In Stock</p>
-
-            <div style="border-top: 1px solid gray;margin-top:50px">
-                Add to cart
-            </div>
-           
-        </div>
-    </div>
-    <div class="card mainclass" style="width:16rem;display:inline-block;margin:0px">
-        <img class="d-block w-100 image" style="height:280px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
-        <div class="card-body ">
-            <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>
-           
-            <p style="line-height: 1;">Anker soundsync bluetooth reciever</p>
-            <p style="line-height: 1;">R.s 5555</p>
-            <p style="color: red; line-height:0">In Stock</p>
-
-            <div style="border-top: 1px solid gray;margin-top:50px">
-                Add to cart
-            </div>
-           
-        </div>
-    </div>
-
 
 
 </div>
@@ -297,62 +266,62 @@
         </div>
     </div>
 
-    <div style="margin: 0; margin-top:20px;text-align:center;border-bottom:1px solid gainsboro" class="">
-    <div style="border-bottom: 1px solid black;width:80px;margin:10px">
-    By Color
-    </div>
-    <ul style="list-style-type: none;margin-left:22px;text-align:left">
-        <li>yellow</li>
-        <li>black</li>
-        <li>orrange</li>
-        <li>red</li>
-        <li>blue</li>
-        <li>gray</li>
-    </ul>  
-    </div>
-
-
-    <div style="margin: 0; margin-top:20px;text-align:center;border-bottom:1px solid gainsboro" class="">
-    <div style="border-bottom: 1px solid black;width:80px;margin:10px">
-    By Price
-    </div>
-    <ul style="list-style-type: none;margin-left:22px;text-align:left">
-        <li> <input type="checkbox" name="" id=""> 500-1000 </li>
-        <li><input type="checkbox" name="" id=""> 1000-3000</li>
-        <li><input type="checkbox" name="" id=""> 3000-6000</li>
-        <li><input type="checkbox" name="" id=""> 6000-8000</li>
-        <li><input type="checkbox" name="" id=""> 8000-10000</li>
-    </ul>  
+    <div style="margin: 0; margin-top:20px;text-align:center;border-bottom:1px solid gainsboro" class="image">
+        <div style="border-bottom: 1px solid black;width:80px;margin:10px">
+            By Color
+        </div>
+        <ul style="list-style-type: none;margin-left:22px;text-align:left">
+            <li>yellow</li>
+            <li>black</li>
+            <li>orrange</li>
+            <li>red</li>
+            <li>blue</li>
+            <li>gray</li>
+        </ul>
     </div>
 
-    <div style="margin: 0; margin-top:20px;text-align:center;border-bottom:1px solid gainsboro" class="">
-    <div style="border-bottom: 1px solid black;width:80px;margin:10px">
-    By Brand
-    </div>
-    <ul style="list-style-type: none;margin-left:22px;text-align:left">
-        <li>Sony</li>
-        <li>Samsung</li>
-        <li>Apple</li>
-        <li>LG</li>
-        <li>Vivo</li>
-        <li>Honor</li>
-        <li>infinix</li>
-        <li>Mi</li>
-    </ul>  
+
+    <div style="margin: 0; margin-top:20px;text-align:center;border-bottom:1px solid gainsboro" class="image">
+        <div style="border-bottom: 1px solid black;width:80px;margin:10px">
+            By Price
+        </div>
+        <ul style="list-style-type: none;margin-left:22px;text-align:left">
+            <li> <input type="checkbox" name="" id=""> 500-1000 </li>
+            <li><input type="checkbox" name="" id=""> 1000-3000</li>
+            <li><input type="checkbox" name="" id=""> 3000-6000</li>
+            <li><input type="checkbox" name="" id=""> 6000-8000</li>
+            <li><input type="checkbox" name="" id=""> 8000-10000</li>
+        </ul>
     </div>
 
-    <div style="margin: 0; margin-top:20px;text-align:center;border-bottom:1px solid gainsboro" class="">
-    <div style="border-bottom: 1px solid black;width:80px;margin:10px">
-    By Category
+    <div style="margin: 0; margin-top:20px;text-align:center;border-bottom:1px solid gainsboro" class="image">
+        <div style="border-bottom: 1px solid black;width:80px;margin:10px">
+            By Brand
+        </div>
+        <ul style="list-style-type: none;margin-left:22px;text-align:left">
+            <li>Sony</li>
+            <li>Samsung</li>
+            <li>Apple</li>
+            <li>LG</li>
+            <li>Vivo</li>
+            <li>Honor</li>
+            <li>infinix</li>
+            <li>Mi</li>
+        </ul>
     </div>
-    <ul style="list-style-type: none;margin-left:22px;text-align:left">
-        <li>TV</li>
-        <li>Sound</li>
-        <li>Camera</li>
-        <li>Laptop</li>
-        <li>Gaming</li>
-        <li>Accessories</li>
-    </ul>  
+
+    <div style="margin: 0; margin-top:20px;text-align:center;border-bottom:1px solid gainsboro" class="image">
+        <div style="border-bottom: 1px solid black;width:80px;margin:10px">
+            By Category
+        </div>
+        <ul style="list-style-type: none;margin-left:22px;text-align:left">
+            <li>TV</li>
+            <li>Sound</li>
+            <li>Camera</li>
+            <li>Laptop</li>
+            <li>Gaming</li>
+            <li>Accessories</li>
+        </ul>
     </div>
 
 
@@ -366,7 +335,7 @@
     }
 
     .leftbar_onclick_filter {
-        
+
         position: absolute;
         left: 0;
         top: 0;

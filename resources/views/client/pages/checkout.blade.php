@@ -38,7 +38,7 @@
 <div style="display: flex; flex-wrap: wrap; margin-bottom: 10px;" class="">
   <div style="padding-left: 0px;padding-top: 50px;" class="col-md-7">
     <div style="width: 80%;
-    margin-left: 133px;
+    margin-left: auto;
     margin-right: auto;" class="container">
 
 
