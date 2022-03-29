@@ -98,3 +98,23 @@ body {
         margin-right: auto;
     }
 }
+@media(min-width:420px){
+    .hide_on_greaterThan420Screen{
+        display: none;
+    }
+}
+@media(min-width:0px) and (max-width:769px){
+    .hide_on_screen_lessThan770{
+        display: none;
+    }
+}
+@media(min-width: 500px){
+    .hide_on_mobile_screen{
+        display: block;
+    }
+} 
+@media(max-width:490px){
+    .hide_on_mobile_screen{
+        display: none;
+    }
+}

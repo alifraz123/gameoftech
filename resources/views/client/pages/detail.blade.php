@@ -57,20 +57,20 @@
 
             <h5 style="line-height: 2;">Rs.1,490.00</h5>
             <h6 style="line-height: 2;">SKU: WESTSCF00833-999-999</h5>
-            <h6 style="line-height: 2;">Availability : In Stock</h6>
-            <div style="border: 1px solid black; padding:6px;width: 30%;text-align: center;display:inline-block">
-                <button style="border: none;float: left;background-color:white;cursor:pointer"><i class="fa fa-trash-o"></i></button>
-                <input style="width: 17px;border: navajowhite;" type="text" value="1">
-                <button style="border: none;float: right;background-color:white;cursor:pointer">+</button>
-            </div>
-            <div style="padding: 0;display:inline" class="col-md-12">
-                <button style="display:inline;border: 1px solid black;padding: 7px;width: 50%;background-color: black;color: white;margin-top: 10px;">CHECK OUT</button>
-            </div>
-            <div style="padding:0;display:inline;" class="col-md-12">
-                <button style="border: 1px solid black;padding: 7px;background-color: white;color: white;margin-top: 10px;width:10%">
-                    <i style="color: black;" class="fa fa-heart-o"></i>
-                </button>
-            </div>
+                <h6 style="line-height: 2;">Availability : In Stock</h6>
+                <div style="border: 1px solid black; padding:6px;width: 30%;text-align: center;display:inline-block">
+                    <button style="border: none;float: left;background-color:white;cursor:pointer"><i class="fa fa-trash-o"></i></button>
+                    <input style="width: 17px;border: navajowhite;" type="text" value="1">
+                    <button style="border: none;float: right;background-color:white;cursor:pointer">+</button>
+                </div>
+                <div style="padding: 0;display:inline" class="col-md-12">
+                    <button style="display:inline;border: 1px solid black;padding: 7px;width: 50%;background-color: black;color: white;margin-top: 10px;">CHECK OUT</button>
+                </div>
+                <div style="padding:0;display:inline;" class="col-md-12">
+                    <button style="border: 1px solid black;padding: 7px;background-color: white;color: white;margin-top: 10px;width:10%">
+                        <i style="color: black;" class="fa fa-heart-o"></i>
+                    </button>
+                </div>
 
 
 
@@ -125,20 +125,96 @@
 
 
         <div style="width:100%;text-align:center;margin-left: auto;margin-right: auto;margin-bottom:50px">
-        <div style="display: inline;">
-            <hr style="width: 100px;
+            <div style="display: inline;">
+                <hr style="width: 100px;
     background-color: red; height:0px;display:inline-block;margin:auto">
-        </div>
-        <div style="display: inline;">
-            <p style="display: inline-block;">You May Like</p>
-        </div>
-        <div style="display: inline;">
-            <hr style="width: 100px;
+            </div>
+            <div style="display: inline;">
+                <p style="display: inline-block;">You May Like</p>
+            </div>
+            <div style="display: inline;">
+                <hr style="width: 100px;
     background-color: red;height:0px;display:inline-block;margin:auto">
+            </div>
+
         </div>
 
     </div>
 
+</div>
+
+
+<div style="margin-bottom: 100px;" class="owl-carouselDetail owl-carousel owl-theme">
+    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+        <div class="item">
+            <img class="image" src="/clientassets/images/1.jpg" alt="">
+        </div>
+        <div style="text-align: center;" class="card-body ">
+
+            <p class="card-text">Stripped blended scarf </p>
+            <p style="line-height: 0;">1548 PKR</p>
+
+        </div>
+    </div>
+
+    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+        <div class="item">
+            <img class="image" src="/clientassets/images/2.jpg" alt="">
+        </div>
+        <div style="text-align: center;" class="card-body ">
+
+            <p class="card-text">Stripped blended scarf </p>
+            <p style="line-height: 0;">1548 PKR</p>
+
+        </div>
+    </div>
+
+    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+        <div class="item">
+            <img class="image" src="/clientassets/images/3.jpg" alt="">
+        </div>
+        <div style="text-align: center;" class="card-body ">
+
+            <p class="card-text">Stripped blended scarf </p>
+            <p style="line-height: 0;">1548 PKR</p>
+
+        </div>
+    </div>
+
+    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+        <div class="item">
+            <img class="image" src="/clientassets/images/4.jpg" alt="">
+        </div>
+        <div style="text-align: center;" class="card-body ">
+
+            <p class="card-text">Stripped blended scarf </p>
+            <p style="line-height: 0;">1548 PKR</p>
+
+        </div>
+    </div>
+
+    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+        <div class="item">
+            <img class="image" src="/clientassets/images/1.jpg" alt="">
+        </div>
+        <div style="text-align: center;" class="card-body ">
+
+            <p class="card-text">Stripped blended scarf </p>
+            <p style="line-height: 0;">1548 PKR</p>
+
+        </div>
+    </div>
+
+    <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+        <div class="item">
+            <img class="image" src="/clientassets/images/3.jpg" alt="">
+        </div>
+        <div style="text-align: center;" class="card-body ">
+
+            <p class="card-text">Stripped blended scarf </p>
+            <p style="line-height: 0;">1548 PKR</p>
+
+        </div>
     </div>
 
 </div>

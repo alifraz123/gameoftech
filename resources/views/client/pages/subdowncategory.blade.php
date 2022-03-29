@@ -5,107 +5,77 @@
     <div style="margin-bottom:10px; padding-top:10px">
         <h1 style="font-size: 25px;display:inline">Shop By Brands</h1>
     </div>
-    <div id="carouselExampleControls" style="margin-top: 0px;" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div style="padding-bottom: 40px" class="row">
-                    <div style="display:flex;align-items:center" class="col-md-2">
 
-                        <div class="card" style="width: auto">
-                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/apple.jpg" alt="First slide">
-
-                        </div>
-                    </div>
-                    <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: auto">
-                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/Nanoleaf.jpg" alt="First slide">
-
-                        </div>
-                    </div>
-                    <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: auto">
-                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
-
-                        </div>
-                    </div>
-                    <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: auto">
-                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
-
-                        </div>
-                    </div>
-                    <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: auto">
-                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
-
-                        </div>
-                    </div>
-                    <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: auto">
-                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
-
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-            <div class="carousel-item">
-                <div style="padding-bottom: 40px" class="row">
-                    <div style="display:flex;align-items:center" class="col-md-2">
-
-                        <div class="card" style="width: auto">
-                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/apple.jpg" alt="First slide">
-
-                        </div>
-                    </div>
-                    <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: auto">
-                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/Nanoleaf.jpg" alt="First slide">
-
-                        </div>
-                    </div>
-                    <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: auto">
-                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
-
-                        </div>
-                    </div>
-                    <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: auto">
-                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
-
-                        </div>
-                    </div>
-                    <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: auto">
-                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
-
-                        </div>
-                    </div>
-                    <div style="display:flex;align-items:center" class="col-md-2">
-                        <div class="card" style="width: auto">
-                            <img class="d-block w-100" style="height:100px;object-fit:contain" src="/clientassets/images/asus.jpg" alt="First slide">
-
-                        </div>
-                    </div>
-
-
-                </div>
-
+    <div style="margin-bottom: 100px;" class="owl-carousel_Subdowncategory owl-carousel owl-theme">
+        <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+            <div class="item" style="width:auto">
+                <img class="image" style="height:100px;width:100%" src="/clientassets/images/1.jpg" alt="">
             </div>
 
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+
+        <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+            <div class="item" style="width:auto">
+                <img class="image" style="height:100px;width:100%" src="/clientassets/images/2.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+            <div class="item" style="width:auto">
+                <img class="image" style="height:100px;width:100%" src="/clientassets/images/3.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+            <div class="item" style="width:auto">
+                <img class="image" style="height:100px;width:100%" src="/clientassets/images/4.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+            <div class="item" style="width:auto">
+                <img class="image" style="height:100px;width:100%" src="/clientassets/images/1.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+            <div class="item" style="width:auto">
+                <img class="image" style="height:100px;width:100%" src="/clientassets/images/3.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+            <div class="item" style="width:auto">
+                <img class="image" style="height:100px;width:100%" src="/clientassets/images/3.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+            <div class="item" style="width:auto">
+                <img class="image" style="height:100px;width:100%" src="/clientassets/images/3.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+            <div class="item" style="width:auto">
+                <img class="image" style="height:100px;width:100%" src="/clientassets/images/3.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="card mainclass" style="width:100%;display:inline-block;margin:3px;border:none">
+            <div class="item" style="width:auto">
+                <img class="image" style="height:100px;width:100%" src="/clientassets/images/3.jpg" alt="">
+            </div>
+
+        </div>
+
     </div>
+
+
 
 </div>
 
@@ -130,7 +100,7 @@
     <hr style="visibility:hidden">
     <div style="display: flex;flex-wrap:wrap;">
 
-    <div class="card mainclass" style="width:auto;text-align:center;display:inline-block;margin:3px;">
+        <div class="card mainclass" style="width:auto;text-align:center;display:inline-block;margin:3px;">
             <img class="image" style="width:auto;height:155px;object-fit:cover" src="/clientassets/images/na1.webp" alt="First slide">
             <div class="card-body ">
                 <button class="text middle btn btn-danger" style="margin-top: -50px;">Quick View</button>

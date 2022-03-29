@@ -15,15 +15,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/clientassets/style.css">
+    <link rel="stylesheet" href="/clientassets/hamburgerMenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>GameOfTech</title>
-   
+
 </head>
 
 <body>
 
 
-    <header id="ntheader">
 
+
+
+    <header id="ntheader">
 
         <div id="shopify-section-header_top">
 
@@ -42,6 +48,30 @@
                 </div>
             </div>
 
+
+
+            <div id="mySidenav" class="sidenav hide_on_greaterThan420Screen">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a onmouseenter="fun()" onmouseleave="remove()" style="color: white;">New In</a>
+                <a onmouseenter="fun()" onmouseleave="remove()" style="color: white;">Women</a>
+                <a onmouseenter="fun()" onmouseleave="remove()" style="color: white;">Man</a>
+                <a onmouseenter="fun()" onmouseleave="remove()" style="color: white;">Kids</a>
+                <a onmouseenter="fun()" onmouseleave="remove()" style="color: white;">Beauty</a>
+                <a onmouseenter="fun()" onmouseleave="remove()" style="color: white;">Accessories</a>
+                <a onmouseenter="fun()" onmouseleave="remove()" style="color: white;">Home</a>
+                <a onmouseenter="fun()" onmouseleave="remove()" style="color: white;">Style Guide</a>
+                <a onmouseenter="fun()" onmouseleave="remove()" style="color: white;">Store Locator</a>
+
+                <div style="width: 90%;margin-left: auto;margin-right: auto;">
+                    <i class="fa fa-search" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer; color:white"></i>
+                    <i onclick="show_sidebar_login()" class="fa fa-sign-in" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer; color:white"></i>
+                    <i class="fa fa-heart-o" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer; color:white"></i>
+                    <i onclick="show_sidebar()" class="fa fa-cart-plus" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer; color:white"></i>
+                    <i class="fa fa-truck" style="font-size:24px;margin-left: 7px;margin-right:30px;cursor:pointer; color:white"></i>
+                </div>
+            </div>
+
+
             <div id="navbar" style="background: white;margin-top:-10px;z-index: 1;left: 0px;">
                 <div style="background-color:white;margin:25px 0 10px 0" class="row">
                     <div class="col-lg-4 col-sm-12 col-md-4 ">
@@ -52,7 +82,12 @@
 
                         </div>
                     </div>
-                    <div style="text-align: right;" class="col-lg-4 col-sm-12 col-md-4">
+
+                    <div onclick="openNav()" style="text-align: right;" class="col-lg-4 col-sm-12 col-md-4 hide_on_greaterThan420Screen">
+                        <i class="fa fa-bars"></i>
+                    </div>
+
+                    <div style="text-align: right;" class="col-lg-4 col-sm-12 col-md-4 hide_on_screen_lessThan770">
 
                         <i class="fa fa-search" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
                         <i onclick="show_sidebar_login()" class="fa fa-sign-in" style="font-size:24px;margin-left: 7px;margin-right:7px;cursor:pointer"></i>
@@ -65,17 +100,17 @@
                 </div>
 
 
-                <nav style="display:none;z-index: 1;padding:0px;border-top:1px solid gainsboro;padding-top: 19px;padding-bottom: 0px;" class="navbar sticky-top">
+                <nav style="z-index: 1;padding:0px;border-top:1px solid gainsboro;padding-top: 19px;padding-bottom: 0px;" class="navbar sticky-top hide_on_mobile_screen">
                     <ul id="navbarul">
-                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">New In</a></li>
-                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Women</a></li>
-                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Man</a></li>
-                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Kids</a></li>
-                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Beauty</a></li>
-                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Accessories</a></li>
-                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Home</a></li>
-                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Style Guide</a></li>
-                        <li><a onmouseenter="fun()" onmouseleave="remove()" href="">Store Locator</a></li>
+                        <li><a onmouseleave="remove()"><span onmouseenter="fun()">New In</span></a></li>
+                        <li><a onmouseleave="remove()"><span onmouseenter="fun()">Women</span></a></li>
+                        <li><a onmouseleave="remove()"><span onmouseenter="fun()">Man</span></a></li>
+                        <li><a onmouseleave="remove()"><span onmouseenter="fun()">Kids</span></a></li>
+                        <li><a onmouseleave="remove()"><span onmouseenter="fun()">Beauty</span></a></li>
+                        <li><a onmouseleave="remove()"><span onmouseenter="fun()">Accessories</span></a></li>
+                        <li><a onmouseleave="remove()"><span onmouseenter="fun()">Home</span></a></li>
+                        <li><a onmouseleave="remove()"><span onmouseenter="fun()">Style Guide</span></a></li>
+                        <li><a onmouseleave="remove()"><span onmouseenter="fun()">Store Locator</span></a></li>
 
                     </ul>
 
@@ -97,7 +132,7 @@
 
                 <div onmouseenter="fun()" onmouseleave="remove()" id="hovershow" class="hovershow nav-hover">
                     <div class="container">
-                        <div style="margin-top: 40px;" class="row">
+                        <div style="margin-top: 40px;overflow:auto" class="row">
                             <div class="col-md-3">
                                 <div style="border-bottom: 1px solid gray;text-align:left">
                                     <h6>Ready To Wear</h6>
@@ -134,7 +169,7 @@
                                     <li>Luxury Pret</li>
                                     <li>Embroided</li>
                                     <li>Silk</li>
-                                    <li>Ready To Wear Outfits</li>
+                                    <li>Ready To Wear Outfits 3</li>
                                 </ul>
                             </div>
                             <div class="col-md-3">
@@ -206,18 +241,18 @@
 
     <!-- This is sidebar code for view cart and checkout start -->
     <div style="position: fixed;" id="sidebar_" class="leftbar_onclick">
-        <div style="border-bottom: 1px solid gainsboro;margin:0;align-items:center" class="row">
-            <div style="text-align: left;margin-top:10px" class="col-md-6">
+        <div style="border-bottom: 1px solid gainsboro;margin:15px;display:flex;justify-content:space-between" class="">
+            <div style="text-align: left;margin-top:10px">
                 <p>SHOPPING CART</p>
             </div>
-            <div style="text-align: right;" class="col-md-6">
+            <div style="text-align: right;">
                 <p style="cursor:pointer;margin-top:10px" onclick="hide_sidebar()">&#10006;</p>
             </div>
         </div>
 
         <div style="margin: 0; margin-top:20px;text-align:center;" class="row">
             <div class="col-md-6">
-                <img style="width: 100%;object-fit:contain" src="/clientassets/images/razer.jpg" alt="">
+                <img style="width: 100%;height:200px;object-fit:contain" src="/clientassets/images/razer.jpg" alt="">
             </div>
             <div class="col-md-6">
                 <p style="line-height: 2;">Engima </p>
@@ -233,25 +268,31 @@
         </div>
 
 
-        <div style="margin: 0;position:absolute;bottom:0" class="row">
-            <div class="col-md-6">
-                <p style="font-weight: bold;font-size: 20px;">Subtotal:</p>
-            </div>
-            <div style="float: right;" class="col-md-6">
-                <p style="float:right;font-size:22px">R.s 4980:00</p>
+        <div style="position:absolute;width: 100%;
+    margin-left: auto;
+    margin-right: auto;">
+            <div class="" style="display:flex;justify-content:space-between;width: 100%;
+    margin-left: auto;
+    margin-right: auto;">
+                <div class="col-md-6 col-sm-6">
+                    <span style="font-weight: bold;font-size: 20px;">Subtotal:</span>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <span style="float: right;">R.s 4980:00</span>
+                </div>
             </div>
 
-            <div style="margin: 0;" class="row">
+            <div style="width: 100%;
+    margin-left: auto;
+    margin-right: auto;" class="row">
                 <div class="col-md-12">
-                    <button style="width: 100%;
-    padding: 10px;
-    background-color: white;">
-                        <a href="cart" style="color:black; padding: 10px; width: 114%;text-decoration:none">VIEW CART</a>
+                    <button style="width: 100%;padding: 10px;background-color: white;">
+                        <a href="cart" style="color:black; padding: 10px; width: 100%;text-decoration:none">VIEW CART</a>
                     </button>
 
                 </div>
                 <div class="col-md-12">
-                    <button style="border: 1px solid black;padding: 10px;width: 114%;background-color: black;color: white;margin-top: 10px;">
+                    <button style="border: 1px solid black;padding: 10px;width: 100%;background-color: black;color: white;margin-top: 10px;">
                         <a href="checkout" style="color:white; padding: 10px; width: 114%;text-decoration:none"> CHECK OUT </a>
                     </button>
                 </div>
@@ -299,11 +340,11 @@
 
     <!-- This is sidebar code for login start -->
     <div style="overflow: scroll;position:fixed" id="sidebar_login" class="leftbar_onclick">
-        <div style="border-bottom: 1px solid gainsboro;margin:0;align-items:center" class="row">
-            <div style="text-align: left;margin-top:10px" class="col-md-6">
+        <div style="border-bottom: 1px solid gainsboro;margin:15px;display:flex;justify-content:space-between">
+            <div style="text-align: left;margin-top:10px">
                 <p>LOGIN</p>
             </div>
-            <div style="text-align: right;" class="col-md-6">
+            <div style="text-align: right;">
                 <p style="cursor:pointer;margin-top:10px" onclick="hide_sidebar_login()">&#10006;</p>
             </div>
         </div>
@@ -465,40 +506,8 @@
 
         }
     </style>
-    <script>
-        function gg() {
-            document.getElementById('sidebar_signup').style.display = "block";
-        }
-
-        function login() {
-            document.getElementById('sidebar_signup').style.display = "none";
-            document.getElementById('sidebar_login').style.display = "block";
-        }
-
-        function hide_sidebar_signup() {
-            document.getElementById('sidebar_signup').style.display = "none";
-            document.getElementById('sidebar_login').style.display = "none";
-        }
-    </script>
-    <script>
-        window.onscroll = function() {
-            myFunction()
-        };
-
-        var navbar = document.getElementById("navbar");
-        var navbarul = document.getElementById('navbarul');
 
 
-        function myFunction() {
-            if (window.pageYOffset >= 200) {
-                navbar.classList.add("sticky");
-                navbarul.classList.add("navbarul")
-            } else {
-                navbar.classList.remove("sticky");
-                navbarul.classList.remove("navbarul");
 
-            }
-        }
-    </script>
 
     <!-- This is sidebar code for signup end -->
